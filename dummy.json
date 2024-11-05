@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": "8b3c",
+      "email": "tolani@gmail.com",
+      "username": "tholani",
+      "password": "tholni"
+    },
+    {
+      "id": "d61f",
+      "email": "Sekinat@gmail.com",
+      "username": "Sekinat",
+      "password": "sekinah"
+    },
+    {
+      "id": "b0fb",
+      "email": "bolade@gmail.com",
+      "username": "bolade",
+      "password": "bholadre"
+    },
+    {
+      "id": "014c"
+    }
+  ]
+}

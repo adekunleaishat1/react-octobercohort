@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import mysty from './style/Mystyle'
 
-function App() {
+const App = () => {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <h1 className='App'>Hello</h1>
+    <p style={{color:"Blue", backgroundColor:"red", fontSize:"40px"}}>Inline Styling</p>
+    <p style={mysty}>INTERNAL STYLING</p>
+    <p style={mysty.header}>STyle inside style</p>
+
+    </>
+  )
 }
 
-export default App;
+export default App
